@@ -1,0 +1,4 @@
+# dist file for OpenCL
+
+darcs      /extensions/OpenCL            http://openengine.dk/code/extensions/OpenCL
+darcs-dev  /extensions/OpenCL            fh.daimi.au.dk:/users/cgd/code/extensions/OpenCL
