@@ -1,5 +1,6 @@
 
 # Create the extension library
+
 ADD_LIBRARY(Extensions_OpenCL
   Meta/OpenCL.h
   Meta/OpenCL.cpp
@@ -8,4 +9,5 @@ ADD_LIBRARY(Extensions_OpenCL
 
 TARGET_LINK_LIBRARIES(Extensions_OpenCL
     ${OPENCL_LIBRARY}
+    ${OPENCL_UTIL_LIBRARY}
 )
