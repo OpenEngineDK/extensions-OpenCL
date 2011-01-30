@@ -28,3 +28,7 @@ MESSAGE("Header found in framework :)")
 ELSE(APPLE)
 INCLUDE_DIRECTORIES(${OPENCL_INCLUDE_DIR})
 ENDIF(APPLE)
+
+DOC_EXCLUDE(
+  Meta/cl.hpp
+)
